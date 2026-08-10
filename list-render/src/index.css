@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.tile {
+  height: 20px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct {
+  background-color: green;
+}
+
+.absent {
+  background-color: gray;
+}
+
+.present {
+  background-color: yellow;
+}
